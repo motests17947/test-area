@@ -9,6 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="Fininally pushed" />
+      <h2>Test push new things</h2>
     </div>
   </header>
 
