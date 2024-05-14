@@ -1,0 +1,28 @@
+.slide-enter-active,
+.slide-leave-active {
+  animation: slideFromTop cubic-bezier(0.3, 1, 0.2, 1) 0.6s;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateY(-40px); /* 進入動畫 */
+}
+
+.slide-leave-from,
+.slide-enter-to {
+  transform: translateY(0px); /* 離開動畫 */
+}
+
+@keyframes slideFromTop {
+  0% {
+    top: -40px;
+  }
+
+  50% {
+    top: 0px;
+  }
+
+  100% {
+    top: -10px;
+  }
+}
