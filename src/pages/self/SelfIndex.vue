@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import { ElButton } from 'element-plus'
+// import { ElButton } from 'element-plus'
 import { ref, onMounted } from 'vue'
 
 const show = ref<boolean>(false)
@@ -26,10 +26,10 @@ const getDefaultDataFunc = async (): Promise<void> => {
   show.value = res
 }
 
-const setAnimationRestart = (): void => {
-  show.value = false
-  getDefaultDataFunc()
-}
+// const setAnimationRestart = (): void => {
+//   show.value = false
+//   getDefaultDataFunc()
+// }
 
 onMounted(() => {
   getDefaultDataFunc()
