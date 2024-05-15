@@ -1,11 +1,5 @@
 <template>
-  <div :style="`position: relaive;`">
-    <!-- <transition name="slide">
-      <div v-if="show" class="box">It's nav bar</div>
-    </transition>
-
-    <ElButton class="btn" @click="setAnimationRestart()">BTN</ElButton> -->
-  </div>
+  <div :style="`position: relaive;`">Self Index</div>
 </template>
 
 <script setup lang="ts">
