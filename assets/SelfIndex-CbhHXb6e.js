@@ -1,1 +1,0 @@
-import{d as a,r as n,o as c,c as r,a as _,_ as d}from"./index-W1hgd541.js";const i={style:"position: relaive;"},l=a({__name:"SelfIndex",setup(u){const t=n(!1),s=()=>new Promise(e=>{setTimeout(()=>{e(!0)},1500)}),o=async()=>{let e=await s();t.value=e};return c(()=>{o()}),(e,p)=>(_(),r("div",i))}}),m=d(l,[["__scopeId","data-v-4b1aadd4"]]);export{m as default};

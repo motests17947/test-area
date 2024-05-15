@@ -1,0 +1,1 @@
+import{a as n,r as a,o as c,f as r,e as _,_ as l}from"./index-VV-Gt5Bt.js";const d={style:"position: relaive;"},f=n({__name:"SelfIndex",setup(i){const t=a(!1),s=()=>new Promise(e=>{setTimeout(()=>{e(!0)},1500)}),o=async()=>{let e=await s();t.value=e};return c(()=>{o()}),(e,u)=>(_(),r("div",d,"Self Index"))}}),m=l(f,[["__scopeId","data-v-688d328d"]]);export{m as default};
